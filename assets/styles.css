@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("./Pretendard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("./Pretendard-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("./Pretendard-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --bg: #f8f9fb;
   --bg-soft: #f3f5f9;
@@ -166,7 +190,7 @@ button:focus-visible {
   margin: 0;
   font-size: clamp(2.1rem, 6.2vw, 4.5rem);
   line-height: 1.18;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
   font-weight: 700;
 }
 
@@ -263,8 +287,8 @@ button:focus-visible {
   margin: 0 0 18px;
   font-size: clamp(1.6rem, 3.4vw, 2.2rem);
   line-height: 1.28;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-weight: 600;
+  letter-spacing: -0.025em;
 }
 
 .text-block {
@@ -318,8 +342,8 @@ button:focus-visible {
   margin: 0 0 12px;
   font-size: 1.2rem;
   line-height: 1.35;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  font-weight: 600;
+  letter-spacing: -0.015em;
 }
 
 .list {
@@ -340,7 +364,7 @@ button:focus-visible {
   display: inline-block;
   margin-top: 10px;
   font-size: clamp(1.4rem, 3vw, 2rem);
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.02em;
 }
 
